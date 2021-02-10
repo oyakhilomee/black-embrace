@@ -1,14 +1,103 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #101011;
   color: #76818a;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .chef-one {
-  width: 8rem;
-  height: 7rem;
+  width: 11rem;
+  height: 11rem;
+}
+
+.header-h3 {
+  font-size: 2rem;
+  text-align: center;
+  font-size: 26px;
+}
+
+.description-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading-div {
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.description-text {
+  max-width: 92%;
+}
+
+.desc-paragraph-text {
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.7rem;
 }
 
 .white-text {
   color: #fff;
+}
+
+.explore-button-div {
+  margin-top: 2rem;
+}
+
+.btn-explore {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #16161a;
+  padding: 1rem 5rem;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-explore:hover {
+  background-color: #16161a;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.footer-inspiration-text-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4rem;
+  font-size: 13px;
 }
 /*# sourceMappingURL=index.css.map */

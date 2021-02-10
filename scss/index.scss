@@ -1,13 +1,87 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(16, 16, 17);
   color: rgb(118, 129, 138);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.header-img-div {
+  display: flex;
+  justify-content: center;
 }
 
 .chef-one {
-  width: 8rem;
-  height: 7rem;
+  width: 11rem;
+  height: 11rem;
+}
+
+.header-h3 {
+  font-size: 2rem;
+  text-align: center;
+  font-size: 26px;
+}
+
+.description-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-div {
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.description-text {
+  // background-color: red;
+  max-width: 92%;
+}
+
+.desc-paragraph-text {
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.7rem;
 }
 
 .white-text {
   color: #fff;
+}
+
+.explore-button-div {
+  margin-top: 2rem;
+}
+
+.btn-explore {
+  box-sizing: border-box;
+  background-color: rgb(22, 22, 26);
+  padding: 1rem 5rem;
+  color: #fff;
+  font-size: 15px;
+  // height: 2rem;
+  // width: 8rem;
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-explore:hover {
+  background-color: rgb(22, 22, 26);
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.footer-inspiration-text-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  font-size: 13px;
 }

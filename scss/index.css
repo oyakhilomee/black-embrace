@@ -29,6 +29,12 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .h1-oyas {
+    display: none;
+  }
+}
+
 .header-img-div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,15 +44,32 @@ a {
           justify-content: center;
 }
 
+@media screen and (min-width: 768px) {
+  .header-img-div {
+    display: none;
+  }
+}
+
 .chef-one {
   width: 11rem;
   height: 11rem;
+}
+
+.heading-div {
+  margin-top: 3rem;
 }
 
 .header-h3 {
   font-size: 2rem;
   text-align: center;
   font-size: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-h3 {
+    text-align: left;
+    width: 100%;
+  }
 }
 
 .description-div {
@@ -65,8 +88,12 @@ a {
           align-items: center;
 }
 
+.reference-link-divs {
+  margin-top: 3rem;
+}
+
 .heading-div {
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 0.6rem;
 }
 
@@ -75,9 +102,17 @@ a {
 }
 
 .desc-paragraph-text {
-  font-size: 15px;
   text-align: center;
-  line-height: 1.7rem;
+}
+
+@media screen and (min-width: 768px) {
+  .desc-paragraph-text {
+    font-size: 15px;
+    width: 100%;
+    max-width: 87%;
+    text-align: left;
+    line-height: 1.7rem;
+  }
 }
 
 .white-text {
@@ -86,6 +121,12 @@ a {
 
 .explore-button-div {
   margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .explore-button-div {
+    display: none;
+  }
 }
 
 .btn-explore {
@@ -105,20 +146,90 @@ a {
   cursor: pointer;
 }
 
-.footer-inspiration-text-div {
+.transparent {
+  background-color: transparent;
+  border: none;
+}
+
+.fab {
+  padding-right: 0.3rem;
+}
+
+.fa-linkedin {
+  display: none;
+  padding-left: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+  .fa-linkedin {
+    display: none;
+  }
+}
+
+.fa-twitter {
+  padding-left: 0.7rem;
+}
+
+.fa-external-link-alt {
+  padding-left: 0.6rem;
+}
+
+.social-follow-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: red;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 4rem;
+}
+
+.oyas-one {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .oyas-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding-right: 1rem;
+  }
+}
+
+.footer-inspiration-text-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: green;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
   font-size: 13px;
+}
+
+.right-side {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
   .right-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 50%;
+    overflow-y: auto;
   }
 }
 

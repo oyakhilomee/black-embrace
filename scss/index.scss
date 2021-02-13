@@ -116,15 +116,28 @@ a {
   }
   .live-website-btn {
     background-color: transparent;
-    padding: 0 1rem 0 1rem;
+    padding: 0 0.5rem 0 0.5rem;
     border: none;
     color: rgb(118, 129, 138);
   }
+  .live-website-btn:hover {
+    cursor: pointer;
+  }
+  .fa-eye {
+    padding-right: 0.5rem;
+  }
+  .fa-code-branch {
+    padding-right: 0.5rem;
+  }
+
   .code-repo-btn {
     background-color: transparent;
-    padding: 0 1rem 0 1rem;
+    padding: 0 0.5rem 0 0.5rem;
     border: none;
     color: rgb(118, 129, 138);
+  }
+  .code-repo-btn:hover {
+    cursor: pointer;
   }
 
   .box-one {

@@ -128,16 +128,32 @@ a {
 
 .right-side .live-website-btn {
   background-color: transparent;
-  padding: 0 1rem 0 1rem;
+  padding: 0 0.5rem 0 0.5rem;
   border: none;
   color: #76818a;
 }
 
+.right-side .live-website-btn:hover {
+  cursor: pointer;
+}
+
+.right-side .fa-eye {
+  padding-right: 0.5rem;
+}
+
+.right-side .fa-code-branch {
+  padding-right: 0.5rem;
+}
+
 .right-side .code-repo-btn {
   background-color: transparent;
-  padding: 0 1rem 0 1rem;
+  padding: 0 0.5rem 0 0.5rem;
   border: none;
   color: #76818a;
+}
+
+.right-side .code-repo-btn:hover {
+  cursor: pointer;
 }
 
 .right-side .box-one {

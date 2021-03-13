@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 // Start Parent container styling
 
 .parent-container {
@@ -28,6 +32,8 @@ a {
 .left-side {
   @media screen and (min-width: 768px) {
     width: 50%;
+    height: 100%;
+    // position: fixed;
   }
 }
 
@@ -242,13 +248,13 @@ a {
 .right-side {
   display: none;
   @media screen and (min-width: 768px) {
-    overflow: auto;
     display: flex;
     flex-direction: column;
     width: 50%;
-    // height: 90%;
-    overflow-y: auto;
+    height: 100vh;
     // background-color: red;
+    overflow: hidden;
+    overflow-y: scroll;
   }
   .btn-wrapper {
     margin-top: 2.5rem;
